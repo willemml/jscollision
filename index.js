@@ -1,6 +1,6 @@
 var objs = []
 var crashloc
-var canvdim = [1600, 900]
+var canvdim = [Math.floor(window.innerWidth / 100) * 100 || Maths.floor(document.body.clientWidth / 100) * 100, window.innerHeight - 25 || document.body.clientHeight - 25] // set canvas resolution
 
 function startGame() {
   objs[0] = new Component(30, 30, 'green', 30, 80)
