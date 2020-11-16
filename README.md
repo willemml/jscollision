@@ -1,1 +1,1 @@
-Demo at https://wnuke.github.io/jscollision/
+Demo at https://willemml.github.io/jscollision/
